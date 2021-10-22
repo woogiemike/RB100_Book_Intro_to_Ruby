@@ -56,3 +56,10 @@
 # p multiply(add(20, 45), subtract(80, 10))
 
 # p add(subtract(80, 10), multiply(subtract(20, 6), add(30, 5)))
+
+a = 
+if a
+  puts "how can this be true?"
+else
+  puts "it is not true"
+end
