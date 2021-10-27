@@ -7,6 +7,8 @@ a = ['white snow', 'winter wonderland', 'melting ice',
 
 # and turn it into a new array that consists of strings containing one word. (ex. ["white snow", etc...] → ["white", "snow", etc...]. Look into using Array's map and flatten methods, as well as String's split method.
 
- a.each { |i| i.strip{' '}}
+new_a = a.map { |i| i.split }
 
- print a
+new_a = new_a.flatten
+
+print new_a
